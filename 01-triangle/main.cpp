@@ -44,8 +44,8 @@ init(void)
     
     ShaderInfo  shaders[] =
     {
-        { GL_VERTEX_SHADER, "/Volumes/OpenGL/Projects/test/test/triangles.vert" },
-        { GL_FRAGMENT_SHADER, "/Volumes/OpenGL/Projects/test/test/triangles.frag" },
+        { GL_VERTEX_SHADER, "triangles.vert" },
+        { GL_FRAGMENT_SHADER, "triangles.frag" },
         { GL_NONE, NULL }
     };
     
